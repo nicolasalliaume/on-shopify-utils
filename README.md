@@ -47,7 +47,7 @@ Right now, the CLI supports the following operations:
 #### Bootstrap themes
 
 ## Theme Kit integration
-#### Create config `$ shopify-cli kit config [ -t <id>,<id>,... ]`
+#### Create config
 
 
 --------
