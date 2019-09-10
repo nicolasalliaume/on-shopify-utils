@@ -17,7 +17,7 @@ Clone this repo using `git clone https://github.com/nicolasalliaume/on-shopify-u
 
 # Usage
 
-`
+```
 const ShopifyUtils = require( 'on-shopify-utils' )( {
 	domain: "mystore.myshopify.com",
 
@@ -30,7 +30,7 @@ const ShopifyUtils = require( 'on-shopify-utils' )( {
 
 
 ShopifyUtils.theme.list().then( themes => console.log( themes ) );
-`
+```
 
 
 # Operations supported (_so far_)
