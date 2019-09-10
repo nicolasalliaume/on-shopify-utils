@@ -15,7 +15,7 @@ Or run `npm install -g shopify-cli` to install globally.
 ## Install from source code
 Clone this repo using `git clone https://github.com/nicolasalliaume/on-shopify-utils`.
 
-# Usage
+# ② Usage
 
 ```
 const ShopifyUtils = require( 'on-shopify-utils' )( {
@@ -33,7 +33,7 @@ ShopifyUtils.theme.list().then( themes => console.log( themes ) );
 ```
 
 
-# Operations supported (_so far_)
+# ③ Operations supported (_so far_)
 Right now, the CLI supports the following operations:
 
 ## Themes
