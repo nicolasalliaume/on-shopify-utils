@@ -2,7 +2,7 @@
 
 A bunch of utilities to use when working with Shopify.
 
-# ⓵ Installation
+# ① Installation
 
 ## Using YARN
 Run `yarn add shopify-cli`.
