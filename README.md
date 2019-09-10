@@ -1,5 +1,7 @@
 # Shopify Utils by ON Lab
 
+[![Developed by ON Lab](http://on-lab.com/developed-by-on-lab.svg?v=3)](http://on-lab.com)
+
 A bunch of utilities to use when working with Shopify.
 
 # ① Installation
