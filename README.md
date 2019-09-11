@@ -19,7 +19,7 @@ Clone this repo using `git clone https://github.com/nicolasalliaume/on-shopify-u
 
 # ② Usage
 
-```
+```js
 const ShopifyUtils = require( 'on-shopify-utils' )( {
 	domain: "mystore.myshopify.com",
 
@@ -41,16 +41,67 @@ Right now, the CLI supports the following operations:
 ## Themes
 
 #### List themes
+```js
+ShopifyUtils.theme.list().then( themes => ... );
+```
+
 #### Remove themes
+```js
+// using theme ids
+ShopifyUtils.theme.remove( [ 123908123, 1230123987 ] );
+
+// delete all non-live themes
+ShopifyUtils.theme.remove( [], true );
+```
+
 #### Activate theme
+```js
+ShopifyUtils.theme.activate( 1231232123 );
+```
+
 #### Rename theme
+```js
+ShopifyUtils.theme.activate( 1231232123, 'New name' );
+```
+
 #### Duplicate theme
+```js
+ShopifyUtils.theme.duplicate( 1231232123, 'Duplicate theme name' );
+```
+
 #### Sync themes
+```js
+// sync( <source>, <target> )
+ShopifyUtils.theme.sync( 1231232123, 9879879879 );
+```
+
 #### Bootstrap themes
+```js
+// bootstrap one or more Shopify themes
+ShopifyUtils.theme.bootstrap( [ 'minimal', 'debut' ] );
+
+// bootstrap all Shopify themes
+ShopifyUtils.theme.bootstrap( [], true );
+```
+Available themes are:
+* Brooklyn
+* Boundless
+* Debut
+* Jumpstart
+* Minimal
+* Narrative
+* Pop
+* Simple
+* Supply
+* Venture
 
 ## Theme Kit integration
-#### Create config
 
+#### Create config
+```js
+// config( <domain>, <key>, <password>, <output directory>, [ <file name> ] )
+ShopifyUtils.config( 'myshop.myshopify.com', '12312312312123908', '12398120398109381098123', './' );
+```
 
 --------
 
