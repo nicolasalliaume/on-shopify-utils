@@ -2,7 +2,7 @@ const getShopify = require( '../../../utils/get-shopify' );
 const syncTheme = require( '../../../utils/sync-theme' );
 
 module.exports = async function( 
-	originId, 
+	sourceId, 
 	targetId, 
 	files = [], 
 	silent = true, 
