@@ -18,9 +18,6 @@
     "rimraf": "^2.6.2",
     "shopify-api-node": "^2.15.0"
   },
-  "bin": {
-    "shopify-cli": "./cli.js"
-  },
   "keywords": [
     "shopify",
     "cli",
