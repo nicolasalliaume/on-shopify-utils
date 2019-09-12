@@ -1,27 +1,27 @@
 {
-  "name": "on-shopify-utils",
-  "version": "1.0.0",
-  "description": "Command line tools for Shopify",
-  "main": "index.js",
-  "author": "Nicolas Alliaume <nicolas@on-lab.com>",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/nicolasalliaume/on-shopify-utils"
-  },
-  "license": "MIT",
-  "dependencies": {
-    "@shopify/themekit": "^1.0.0",
-    "colors": "^1.3.2",
-    "dotenv": "^6.0.0",
-    "node-cmd": "^3.0.0",
-    "readline-sync": "^1.4.9",
-    "rimraf": "^2.6.2",
-    "shopify-api-node": "^2.15.0"
-  },
-  "keywords": [
-    "shopify",
-    "tool",
-    "node",
-    "nodejs",
-  ]
+    "name": "on-shopify-utils",
+    "version": "1.0.0",
+    "description": "Command line tools for Shopify",
+    "main": "index.js",
+    "author": "Nicolas Alliaume <nicolas@on-lab.com>",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/nicolasalliaume/on-shopify-utils"
+    },
+    "license": "MIT",
+    "dependencies": {
+        "@shopify/themekit": "^1.0.0",
+        "colors": "^1.3.2",
+        "dotenv": "^6.0.0",
+        "node-cmd": "^3.0.0",
+        "readline-sync": "^1.4.9",
+        "rimraf": "^2.6.2",
+        "shopify-api-node": "^2.15.0"
+    },
+    "keywords": [
+        "shopify",
+        "tool",
+        "node",
+        "nodejs",
+    ]
 }
