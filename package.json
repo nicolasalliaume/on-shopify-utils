@@ -15,7 +15,6 @@
     "dependencies": {
         "@shopify/themekit": "^1.0.0",
         "command-user-prompt": "https://github.com/nicolasalliaume/command-prompt-user",
-        "readline-sync": "^1.4.9",
         "rimraf": "^2.6.2",
         "shopify-api-node": "^2.15.0",
         "zip-folder": "^1.0.0"
