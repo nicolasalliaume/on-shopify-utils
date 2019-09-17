@@ -14,9 +14,11 @@
     "license": "MIT",
     "dependencies": {
         "@shopify/themekit": "^1.0.0",
-        "command-user-prompt": "https://github.com/nicolasalliaume/command-prompt-user",
+        "add": "^2.0.6",
+        "command-prompt-user": "https://github.com/nicolasalliaume/command-prompt-user",
         "rimraf": "^2.6.2",
         "shopify-api-node": "^2.15.0",
+        "yarn": "^1.17.3",
         "zip-folder": "^1.0.0"
     },
     "keywords": [
