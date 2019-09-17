@@ -9,11 +9,5 @@ module.exports = async function( name, silent = false ) {
 		throw error;
 	}
 
-	const theme = await getShopify().theme.create( { name, role: 'unpublished' } );
-
-	if ( ! path ) {
-		return theme;
-	}
-
-
+	return await getShopify().theme.create( { name, role: 'unpublished' } );
 }
