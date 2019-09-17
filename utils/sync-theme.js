@@ -18,7 +18,7 @@ module.exports = async function(
 	const syncDir = _syncDir || path.join( __dirname, '..', '.sync' );
 
 	!silent && console.log( 
-		`⌛️  Copying assets from source theme ${ sourceTheme.name.bold }...\n`
+		`⌛️  Copying assets from source theme ${ sourceTheme.name }...\n`
 		`	 Using temp directory "${ syncDir }"`
 	);
 
