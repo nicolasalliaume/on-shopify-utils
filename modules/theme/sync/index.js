@@ -14,6 +14,17 @@ module.exports = async function(
 	const sourceTheme = await shopify.theme.get( sourceId );
 	const targetTheme = await shopify.theme.get( targetId );
 
+	if ( ! sourceTheme ) {
+		const error = new Error( `Source theme with ID ${ sourceId } not found in store.` );
+		error.statusCode = 404;
+		throw error;
+	}
+	if ( ! targetTheme ) {
+		const error = new Error( `Source theme with ID ${ targetId } not found in store.` );
+		error.statusCode = 404;
+		throw error;
+	}
+
 	const assets = ( await shopify.asset.list( sourceId ) ).map( a => a.key );
 
 	// check if the files listed (if any) exist on the source theme.
