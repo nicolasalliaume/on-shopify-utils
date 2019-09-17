@@ -8,17 +8,24 @@
         "type": "git",
         "url": "https://github.com/nicolasalliaume/on-shopify-utils"
     },
+    "scripts": {
+        "test": "mocha"
+    },
     "license": "MIT",
     "dependencies": {
         "@shopify/themekit": "^1.0.0",
         "readline-sync": "^1.4.9",
         "rimraf": "^2.6.2",
-        "shopify-api-node": "^2.15.0"
+        "shopify-api-node": "^2.15.0",
+        "zip-folder": "^1.0.0"
     },
     "keywords": [
         "shopify",
         "tool",
         "node",
         "nodejs"
-    ]
+    ],
+    "devDependencies": {
+        "mocha": "^6.2.0"
+    }
 }
